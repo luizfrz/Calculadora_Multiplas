@@ -8,9 +8,27 @@ se a resposta for sim, apresentar uma mensagem seguinte "seja bem vindo..."
 se a resposta for não, apresentar uma mensagem seguinte "poxa, mas te vejo na proxima"
 quando selecionado a opçao "nao" coloquei uma funçao chamada exit que é sair no pt-br
 
-agora após essa pequena verificação 
+agora após essa pequena verificação, aparece as opções
+capital vem junto um input para digitar, ele é um float um numero não inteiro
+abaixo existe uma variavel chamda ex com uma mensagem ensinado, logo quando for selecionado a opção será apresentada
+pressionado o valor, agora teremos que achar taxa.
+taxa é um float, de fato numero não inteiro e sim há quebrado como é dito informal
+como havia dito acima, ex (variavel que apresenta como deve ser escrito)
+e após tempo (equivalente a meses, usado int representando inteiro)
 
+teremos uma multiplicação dos valores primeiro capital e depois a taxa
+após isso, com tempo com resultado da capital e taxa
+apresentado abaixo como é feito 
+J = c * i * t
+j = C * i
+ J * T
+assim resultado abaixo
 
+implementei uma condição caso queira calcular o montante aparecer a condição "deseja calcular"
+caso a resposta seja sim, apresenta valores e assim calcula
+
+há outras variaveis tambem com finalização, mas nada muito complicado
+semelhante o primeiro
 """
 bem_vindo = str(input("bem vindo a calculadora juros simples, deseja acessar:SIM/NAO"))
 if bem_vindo.lower() == "sim":
