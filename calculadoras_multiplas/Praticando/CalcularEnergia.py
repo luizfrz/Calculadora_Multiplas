@@ -16,7 +16,10 @@ else:
     print("opa, voce pode voltar quanto quiser!")
     exit()
 
-mensagem_ex = "potencia pode ser utilizada dessa maneira 5000w = 5,0 mas como preferir, voce pode digitar"
-POT = input("digite aqui potencia de energia (w)")
-mensagem_tempo = "tempo gasto deve ser utilizado dessa maneira 15 = 0,25 h para realizar a hora"
-TEMPO = int(input("digite tempo gasto"))
+mensagem_ex = "potencia deve ser digitada sempre primeiro numero após virgula"
+mensagem_ex2 = "dessa maneira 5000 = 5,0"
+potencia = float(input("digite aqui potencia de energia (w)"))
+tempo = input("digite aqui seu tempo")
+tempo_li = 60
+conversao = tempo / tempo_li
+
