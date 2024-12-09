@@ -58,6 +58,25 @@ calculo_montante = capital + resultado_tempo
 print("seu montante:", calculo_montante)    
 
 # CALCULADORA PADRAO
+
+"""criamos duas variaveis com input escrito com valores numero digite que pode ser primeiro input
+e numero digite 2 que é segundo input colocado para ser inserido valor, nesse caso crio 4 variaveis com valores que for digitado
+mas como? exemplo, eu faço o calculo de cada um junto a variavel que guarda input 
+repito processo nas 4
+após isso, crio um print (imprimir) ensinando metodo de chamar uma variavel guardado valor
+nesse caso, faço uma variavel input que possa atribuir o qual valor será apresentado
+faremos uma condição abaixo utilizando if e elif
+caso vá digita +, primeiro dois valores acima nas primeiras variaveis está sendo guardado, nesse caso determinado valor será atribuido de qual eu digitar
+seja + vai somar
+seja * vai multiplicar
+e assim por diante
+
+após uso de condições, utilizo else (se nao) caso nenhum valor acima seja digitado, apresentar então assim seguinte mensagem
+(não foi encontrado, tente novamente mais tarde!)
+e assim
+usei exit() para sair de vez e fazer nova tentativa
+
+"""
 numero_digite = int(input("digite aqui seu primeiro numero"))
 numero_digite2 = int(input("digite aqui seu primeiro numero"))
 
