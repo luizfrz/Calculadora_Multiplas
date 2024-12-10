@@ -1,5 +1,5 @@
 ### Calculadora Múltiplas 🧮
-
+![image](https://github.com/user-attachments/assets/f7cc6d14-f05b-4fa7-95e2-fd54c8a432db)
 ## Projeto Calculadora Múltiplas  
 Este repositório apresenta uma coleção de calculadoras desenvolvidas em Python, projetadas para atender a diferentes tipos de operações, desde cálculos básicos até aplicações específicas e avançadas. Com código simples, bem estruturado e fácil de entender, o projeto é ideal para quem deseja aprender, explorar ou contribuir para o desenvolvimento de ferramentas matemáticas.  
 
