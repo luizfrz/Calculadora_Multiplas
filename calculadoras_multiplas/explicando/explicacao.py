@@ -100,7 +100,19 @@ else:
 
 # CALCULAR ENERGIA CONSUMO
 """
-Primeiro ci
+
+Essa calculadora faz o cálculo do consumo da sua energia, não há implementação de tarifas. Nesse caso, esqueci de implementar.
+
+Crio um print para mostrar uma mensagem de "Bem-vindo ao sistema para calcular etc...". Após isso, abaixo do print, existe uma variável nomeada como "deseja_acessar". Essa variável tem como objetivo ser usada em uma condição para acesso à calculadora, de forma clara e objetiva. Caso a resposta seja 'sim', apresenta uma mensagem; caso contrário, apresenta um print de else.
+
+Depois de seguir esses fatores, a criação da variável "mensagem_ex" é apresentada para guiar o usuário a utilizar de forma correta o sistema da calculadora.
+
+Então, começamos de fato a criação da seguinte forma:
+p representa a potência, t o tempo, e limite o tempo limite. Na variável chamada potência, deve ser colocado o valor em watts (W) do aparelho. Após isso, é informado o tempo em que o aparelho ficou ligado na tomada.
+
+Se existir um tempo limite, faremos uma variável chamada "conversao" para converter a energia referente a tempo / limite. Após isso, ajustamos o valor da conversão, utilizando também o tempo e a potência. Multiplicamos a conversão pelo valor da potência.
+
+Por fim, criamos uma variável chamada "consumo_de_energia" para armazenar o valor total do consumo. Um print apresenta a mensagem com o valor convertido.
 
 """
 print("seja bem vindo! sistema para calcular consumo da sua energia")
