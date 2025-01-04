@@ -134,6 +134,10 @@ mensagem_abaixo = "aqui esta seu consumo de energia"
 print(mensagem_abaixo, calculo_energa)
 
 ## CALCULADORA DE MEDIA
+""" Uma calculadora de media serve para calcular final da sua nota após encerramento de um ano letivo.
+nas primeiras linhas do codigo insiro uma mensagem que aparece brevemente com print
+após, coloco em sequencia de input as notas, faço uma variavel que vai realizar soma e após isso, realizar divisão por  4
+faço uma condição para caso nota seja maior 7. Apresentar mensagem, caso seja inferior. Apresentar outra mensagem"""
 media_msg = "seja bem vindo. vamos calcular sua media"
 print(media_msg)
 b1 = int(input("BIMESTRE 1: "))
